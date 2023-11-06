@@ -205,7 +205,7 @@ spec:
       - input: $(params.prefetch-input)
         operator: notin
         values:
-        - "{}"
+        - "false"
       workspaces:
       - name: source
         workspace: workspace
